@@ -165,6 +165,11 @@ h1{
 
 .toprogo{
   width: 55%;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
 }
 
 
@@ -362,4 +367,9 @@ footer p{
   color: #e24;
   font-size: 0.875rem;
   font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+@media (max-width:550px){
+  .toprogo{
+    width: 75%;
+  }
 }
