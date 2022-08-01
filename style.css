@@ -1,4 +1,23 @@
 @charset "UTF-8";
+
+
+h2{
+  font-family: 'Shippori Mincho', serif;
+}
+
+h3{
+  font-family: 'Shippori Mincho', serif;
+}
+
+h4{
+  font-family: 'Shippori Mincho', serif;
+}
+
+p{
+  font-family: 'Shippori Mincho', serif;
+}
+
+
 /*========= ナビゲーションのためのCSS ===============*/
 
 #g-nav{
