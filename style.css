@@ -18,6 +18,15 @@ p{
 }
 
 
+body{
+  width: 100%;
+  height: 100vh;
+  background:linear-gradient(45deg, #d61002,#590701,#d61002);/*グラデーションを定義*/
+  background-size: 200% 200%;/*サイズを大きくひきのばす*/
+  animation: bggradient 20s ease infinite;
+}
+
+
 /*========= ナビゲーションのためのCSS ===============*/
 
 #g-nav{
@@ -97,7 +106,7 @@ p{
     left: 14px;
     height: 3px;
     border-radius: 2px;
-	background-color: #630816;
+	background-color: #f5f5f5;
   	width: 45%;
   }
 
@@ -141,13 +150,15 @@ p{
 }
 
 #video-area{
+  /*
     position: fixed;
     z-index: -1;/*最背面に設定*/
+    /*
     top: 0;
     right:0;
     left:0;
     bottom:0;
-    overflow: hidden;
+    overflow: hidden;*/
 }
 
 #video {
@@ -238,8 +249,11 @@ h1{
   padding-left: 50px;
   padding-right: 50px;
 }
-
-
+.mainst a{
+  color: #c9c9c9;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 
 
